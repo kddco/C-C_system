@@ -1,6 +1,6 @@
 # client2.py
 #!/usr/bin/env python
-
+import os
 import socket
 
 TCP_IP = 'localhost'
@@ -25,3 +25,4 @@ with open('received_file', 'wb') as f:
 print('Successfully get the file')
 s.close()
 print('connection closed')
+os.system("pause")

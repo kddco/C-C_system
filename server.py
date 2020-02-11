@@ -14,7 +14,7 @@ class ClientThread(Thread):
         self.ip = ip
         self.port = port
         self.sock = sock
-        print(" New thread started for "+ip+":"+str(port))
+        print(" New thread:"+ip+":"+str(port))
 
     def run(self):
         filename='sample.txt'

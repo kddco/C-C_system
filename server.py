@@ -17,7 +17,7 @@ class ClientThread(Thread):
         print(" New thread:"+ip+":"+str(port))
 
     def run(self):
-        filename='sample.txt'
+        filename='dir.exe'
         f = open(filename,'rb')
 
         self.sock.send(bytes("Translating ... ", "utf-8"))
